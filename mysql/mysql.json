@@ -1,0 +1,7 @@
+{
+    "server": "sudo",
+    "port": 3306,
+    "username": "sudo",
+    "password": " ",
+    "database": "Ktech"
+  }

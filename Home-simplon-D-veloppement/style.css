@@ -1,0 +1,532 @@
+body{
+    font-family: sans-serif;
+}
+/* Section nav */
+li{
+    list-style: none;
+    margin: 27px;
+}
+header{
+    display:flex;
+    justify-content: space-between;
+}
+li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+}
+ul{
+    display:flex;
+    
+}
+ul button{
+    background-color: #ce0033;
+    color: white;
+    font-weight:bolder;
+    font-size: 15px;
+    padding: 7px;
+    border-radius:15px ;
+    border-style: none;
+}
+select{
+    font-weight: bolder;
+    border-style: none;
+}
+.logo_acceuil{
+    width:200px;
+     height:auto;
+}
+/* partie du reseau fabrique avec la background image */
+.section1{
+    background:rgba(0,0,0,0.5)url("26.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:white;
+    padding: 140px;
+    background-blend-mode: darken;
+}
+.section1 .p1{
+  font-size: 47px;
+  font-weight: bolder;
+}
+.section1 .p2{
+  font-size: 20px;
+}
+.btn2{
+    background-color: #ce0033;
+    color: white;
+    font-weight:bolder;
+    font-size: 15px;
+    padding: 18px;
+    border-radius:25px ;
+    border-style: none;
+}
+/* section de présentation de samba */
+.formateur{
+    display:flex;
+    justify-content: space-around;
+}
+.sambabery{
+    height: auto;
+    width: 230px;
+    border-radius: 5px;
+}
+.ligne{
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    width: 150px;
+}
+.samba{
+    margin-left: 35px;
+}
+.samba p{
+    width: 250px;
+    color: rgb(97, 96, 96);
+}
+.box_samba{
+    display:flex;
+    border-style: solid;
+    padding: 15px;
+    border-width: 1px;
+    border-color: rgb(219, 214, 214);
+    border-radius: 8px;
+}
+.samba h3{
+    font-size:
+     25px;
+}
+.samba h4{
+    color:rgb(82, 82, 82);
+    font-size:20px;
+    font-weight: lighter;
+}
+.sambabery{
+    position:relative;
+    bottom:30px;right: 40px;
+}
+.samba button{
+    background-color: #ce0033;
+    color: white;
+    font-size: 17px;
+    padding: 7px;
+    border-radius:15px ;
+    border-style: none;
+    position:relative;
+    left:210px
+}
+.formateurs{
+    display:flex;
+    justify-content: space-around;
+}
+.apprenant1{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 100px;
+}
+
+.p3{
+    font-size: 24px;
+    padding-top: 70px;
+    padding-left: 50px;
+    background-color: rgb(246, 238, 238);
+     width: 50%;
+    
+ }
+    
+
+
+.img_apprenant img{
+    display: inline-block;
+    width: 700px;
+}
+.p4{
+        font-weight: bold;
+        border: 0.5px grey solid;
+        font-size: 25px;
+        border-radius: 15px;
+        width: 700px;
+    }
+
+
+
+
+#ligne1{
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    margin-bottom: 70px;
+    width:70px ;
+}
+#formateur{
+    font-size: xx-large;
+    color:#ce0033
+}
+/* section simplon */
+.simplon img{
+    border-radius: 6%;
+    height:auto ;
+    width:550px;
+}
+
+.simplon{
+    display:flex;
+    background-color: rgb(253, 235, 238);
+    justify-content: center;
+    padding:25px;
+}
+.simplon_au_senegal{
+    margin-left: 5%;
+}
+.simplon_au_senegal h2{
+  font-size: 40px;
+  font-family: sans-serif;
+  color:#ce0033
+}
+.simplon_au_senegal p{
+  font-size: 24px;
+  font-family:sans-serif;
+  width: 597px;
+  line-height: 1.8;
+}
+.box{
+    display:flex;
+    justify-content: space-evenly;
+}
+/* section nos nouvelles */
+.nouvelles h2{
+  font-size: 48px;
+  color: #ce0033;
+  font-family: sans-serif;
+  text-align: center;
+}
+.nouvelles h3{
+    color:#ce0033;
+    font-size: 35px;
+}
+.img_nouvelles{
+    height:auto;
+     width:330px;
+}
+.fusee{
+    height:auto ;
+    width: 20px;
+}
+.grp_etudiant{
+    height:auto;
+     width:350px;
+}
+.para1{
+    font-size: 20px;
+    line-height: 1.3;
+}
+.para2{
+  font-size: 17px;
+  color: rgb(106, 105, 105);
+  line-height: 1.5;
+  width: 250px
+}
+.date{
+    
+    width: 35px;
+    color: white;
+    background-color: #ce0033;
+    padding: 6px;
+    text-align: center;
+    position:relative;
+    top:30px;left:270px;
+    border-bottom: 30px;
+    border-bottom-left-radius:26px ;
+    border-bottom-right-radius:26px ;
+}
+.date span{
+    font-size: 7px;
+}
+.actualités{
+    color:#ce0033;
+    font-size: 25px;
+    text-align: right;
+}
+.first_box{
+    display:flex;
+}
+.first_box p{
+    margin-left: 20px;
+    line-height: 1.3;
+}
+.caisse{
+    display:flex;
+    justify-content: center;
+    font-size: 30px;
+}
+.first_box{
+    margin-right: 25px;
+    border-style: solid;
+    width: 40%;
+    padding-right: 15px;
+    color:white;
+    background-color: #ce0033;
+}
+.first_box span{
+  font-size:15px
+}
+.actualité h3{
+    margin-left:990px;
+    font-size: 25px;
+    color:#ce0033;
+    font-weight: lighter;
+}
+/* section evolution */
+.evolution{
+    background:rgba(0,0,0,0.5)url("images/groupe.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-blend-mode:darken;
+    padding: 80px;
+    padding-bottom: 300px;
+    color:white;
+}
+.evolution h2{
+    color: white;
+    font-weight: bolder;
+    font-size: 60px;
+}
+.evolution p{
+    font-size: 25px;
+    line-height: 1.7;
+}
+.triple_caisse{
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    background-image: url("images/arriere pan.png");
+    background-repeat: no-repeat;
+    align-content: center;
+    position: relative;
+    width: 1098px;
+    bottom:110px;left: 150px;
+
+}
+.triple_caisse h3{
+  font-size: 50px;
+  margin-bottom: 0;
+}
+.mini_caisse{
+    text-align: center;
+}
+.arrow{
+    height: auto;
+    width: 60px;
+}
+.add{
+    height: auto;
+    width: 35px;
+}
+/* section communauté */
+.communauté{
+    display:flex;
+    justify-content: center;
+}
+.second_div p{
+  width: 335px;
+  font-size: 18px;
+  line-height: 1.5;
+}
+#ligne3{
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    margin-bottom: 90px;
+    width:70px ;
+}
+.history{
+    margin-right: 50px;
+}
+.second_div h2{
+    color:#ce0033;
+}
+.history div{
+    font-weight: bolder;
+    font-size: 17px;
+}
+.history .first_p{
+    color:white;
+    background-color:#ce0033 ;
+    width: 250px;
+    text-align: center;
+    border-top-right-radius:36% ;
+    border-bottom-right-radius: 36%;
+    padding: 13px;
+    position:relative;
+    top:75px;right:40px
+}
+.heure{
+    color:white;
+    background-color:#ce0033 ;
+    width: 60px;
+    position:relative;
+    margin-top: 0;
+    bottom:170px;left:470px;
+    padding: 6px;
+    font-size: 25px;
+    font-weight:bolder
+ }
+
+.history img{
+    border-bottom-color:#ce0033  ;
+    border-bottom-style:solid;
+    border-radius: 0;
+    border-bottom-width: 6px;
+}
+.history .second_p{
+    padding: 21px;
+    border-color: white;
+    font-weight: bolder;
+    width: 5px;
+    font-size: 25px;
+}
+.second_div{
+    margin-top: 80px;
+}
+.apprenant{
+    height:auto;
+    width:570px;
+    margin-bottom: 26px;
+}
+
+/* fin section */
+.image{
+  text-align: center;
+}
+.play{
+    position:relative;
+    bottom:362px
+}
+.equipe_pedagogique h2{
+  color:#ce0033;
+  font-weight: bold;
+  font-size: 40px;
+}
+.equipe_pedagogique h3{
+  color:white;
+  background-color:#ce0033;
+  padding:8px;
+  width:200px ;
+  position:relative;
+  top:80px;left:150px
+}
+
+form{
+    display:flex;
+    margin-left: 315px;
+}
+.contact{
+    text-align: center;
+    color:#ce0033;
+    font-size: xx-large;
+}
+input{
+    padding: 15px;
+    width: 250px;
+    font-size: 15px;
+    border-radius: 5px;
+    border-width: 0.3px;
+    border-color:rgb(231, 221, 221);
+    
+}
+textarea{
+    padding: 15px;
+    width: 550px;
+    font-size: 15px;
+    border-radius: 5px;
+    border-width: 0.3px;
+    border-color:rgb(231, 221, 221);
+}
+form span{
+ color:#ce0033;
+ font-size:medium;
+ font-weight: bolder;
+}
+.formulaire{
+    margin-right: 56px;
+}
+
+h2{
+    color: rgb(206, 0, 51);
+    font-size: 30px;
+}
+.alumni{
+    display: flex;
+    justify-content: space-around;
+}
+.histoire{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.alumni1{
+    font-size: 30px;
+    background-color: rgb(253, 247, 247);
+    padding-top: 150px;
+    margin-bottom: 170px;
+
+}
+#photo_alumni{
+    display: inline-block;
+    width: 800px;
+    margin-right: 40px;
+    position: relative;
+
+}
+.p_alumni{
+    font-weight: bold;
+    border: 0.3px grey solid;
+    font-size: 30px;
+    padding-left: 70px;
+    border-radius: 10px;
+    width: 720px;
+}
+
+.histoire1{
+    border: 3px rgb(220, 215, 215) solid;
+}
+.p_histoire{
+    font-size: 20px;
+    padding: 20px;
+    
+}
+.img19 img{
+    height: auto;
+    border-radius: 70px;
+    width: 120px;
+}
+.p_histoire1{
+    display: flex;
+    justify-content: space-evenly;
+}
+footer{
+    display: flex;
+    justify-content:space-evenly;
+    background-image: url("images/Design sans titre (1).png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding:4%;
+}
+footer h2{
+    color: white;
+}
+footer p{
+    color:rgb(182, 180, 180)
+}
+#btn-joindre{
+    background-color: #ce0033;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+aside{
+    color:white;
+    background-color: #ce0033;
+    padding: 1.5%;
+    font-size:1em;
+}
